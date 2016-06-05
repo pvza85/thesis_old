@@ -1,11 +1,29 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem{Box:1990:TSA:574978}
-\textbf{Box, G.E.P.} {\textbf{\baglac}} \textbf{Jenkins, G.} (1990). \emph{Time
-  Series Analysis, Forecasting and Control}, Holden-Day, Incorporated.
+\bibitem{nister_vocabulary_tree}
+\textbf{Nister, D.} {\textbf{\baglac}} \textbf{Stewenius, H.} (2006). Scalable
+  recognition with a vocabulary tree, \emph{Computer vision and pattern
+  recognition, 2006 IEEE computer society conference on}, \cilt~2, IEEE,
+  \ssayfa 2161--2168.
+
+\bibitem{wang_contextual_weighting_vt}
+\textbf{Wang, X.}, \textbf{Yang, M.}, \textbf{Cour, T.}, \textbf{Zhu, S.},
+  \textbf{Yu, K.} {\textbf{\baglac}} \textbf{Han, T.X.} (2011). Contextual
+  weighting for vocabulary tree based image retrieval, \emph{Computer Vision
+  (ICCV), 2011 IEEE International Conference on}, IEEE, \ssayfa 209--216.
+
+\bibitem{mobile_visual_search}
+\textbf{Girod, B.}, \textbf{Chandrasekhar, V.}, \textbf{Grzeszczuk, R.}
+  {\textbf{\baglac}} \textbf{Reznik, Y.A.} (2011). Mobile visual search:
+  Architectures, technologies, and the emerging MPEG standard,
+  \emph{MultiMedia, IEEE}, \emph{18}(3), 86--94.
+
+\bibitem{Onur_Calikus_YLT}
+\textbf{Calikus, O.}, (2016), YEREL ÖZN\.ITEL\.IKLER KULLANILARAK GÖRÜNTÜ
+  \.INDEKSLEME VE EŞLEME.
 
 \bibitem{moore91}
 \textbf{Moore, C.}, (1991). Encyclopedia of chemical technology, Mass

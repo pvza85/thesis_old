@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  5 JUN 2016 08:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  5 JUN 2016 08:47
 entering extended mode
 **./tez.tex
 (tez.tex
@@ -1130,12 +1130,6 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 ] (ozet.tex [23] [24]) [25] [26
 
 ] (ch1.tex
-
-LaTeX Warning: Citation `HYP:HYP57' on page 1 undefined on input line 26.
-
-
-LaTeX Warning: Citation `17590413' on page 1 undefined on input line 30.
-
 <./fig/sekil1.png, id=99, 580.3281pt x 466.8642pt>
 File: ./fig/sekil1.png Graphic file (type png)
  <use ./fig/sekil1.png>
@@ -1145,9 +1139,6 @@ Package pdftex.def Info: ./fig/sekil1.png used on input line 34.
 [1
 
 ]
-
-LaTeX Warning: Citation `harper2007' on page 2 undefined on input line 53.
-
 
 LaTeX Warning: Citation `unesco' on page 2 undefined on input line 57.
 
@@ -1272,18 +1263,18 @@ Package pdftex.def Info: ./fig/sekil7.png used on input line 58.
 [28 <./fig/sekil7.png>] (tez.bbl [29] [30
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 24.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 42.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 4792) in paragraph at lines 23--26
+Underfull \hbox (badness 4792) in paragraph at lines 41--44
 []\T1/ptm/b/n/12 Star trek planet clas-si-fi-ca-tions\T1/ptm/m/n/12 , $\T1/pcr/
 m/n/12 http : / / en . wikipedia . org / wiki /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
 \T1/pcr/m/n/12 Star _ Trek _ planet _ classifications$\T1/ptm/m/n/12 , alnd§
  tarih:
  []
@@ -1330,8 +1321,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  14591 strings out of 493335
- 241783 string characters out of 3136681
- 357582 words of memory out of 3000000
+ 241823 string characters out of 3136681
+ 357592 words of memory out of 3000000
  17755 multiletter control sequences out of 15000+200000
  35285 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1346,7 +1337,7 @@ les (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on tez.pdf (68 pages, 342440 bytes).
+Output written on tez.pdf (68 pages, 344862 bytes).
 PDF statistics:
  266 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
