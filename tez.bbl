@@ -1,48 +1,15 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 \providecommand{\url}[1]{#1}
 \providecommand{\urlprefix}{}
 \providecommand{\eprint}[2][]{\url{#2}}
-
-\bibitem{HYP:HYP57}
-\textbf{Abrahart, R.J.} {\textbf{\baglac}} \textbf{See, L.} (2000). Comparing
-  neural network and autoregressive moving average techniques for the provision
-  of continuous river flow forecasts in two contrasting catchments,
-  \emph{Hydrological Processes}, \emph{14}(11-12), 2157--2172.
 
 \bibitem{Box:1990:TSA:574978}
 \textbf{Box, G.E.P.} {\textbf{\baglac}} \textbf{Jenkins, G.} (1990). \emph{Time
   Series Analysis, Forecasting and Control}, Holden-Day, Incorporated.
 
-\bibitem{17590413}
-\textbf{Burger, J.}, \textbf{Gochfeld, M.}, \textbf{Jeitner, C.},
-  \textbf{Burke, S.}, \textbf{Stamm, T.}, \textbf{Snigaroff, R.},
-  \textbf{Snigaroff, D.}, \textbf{Patrick, R.} {\textbf{\baglac}}
-  \textbf{Weston, J.} (2007). Mercury levels and potential risk from
-  subsistence foods from the Aleutians, \emph{Sci Total Environ},
-  \emph{384}(1-3), 93--105.
-
-\bibitem{harper2007}
-\textbf{Harper, E.B.} (2007). The role of terrestrial habitat in the population
-  dynamics and conservation of pond-breeding amphibians, \emph{\doktoratezi},
-  http://edt.missouri.edu.
-
-\bibitem{unesco}
-\textbf{IOC-UNESCO} (1981). International bathymetric chart of the
-  Mediterranean.
-
-\bibitem{mccaffrey88}
-\textbf{McCaffrey, R.} {\textbf{\baglac}} \textbf{Abers, G.} (1988). SYN3: A
-  program for inversion of teleseismic body wave forms on microcomputers,
-  \emph{Air Force Geophysics Laboratory Technical Report}.
-
 \bibitem{moore91}
 \textbf{Moore, C.}, (1991). Encyclopedia of chemical technology, Mass
   spectrometry, Wiley, New York, 4. \surum.
-
-\bibitem{nelson88}
-\textbf{Nelson, M.R.} (1988). Constraints on the seismic velocity structure of
-  the crust and upper mantle beneath the eastern Tien Shan, Central Asia,
-  \emph{\doktoratezi}, MIT, Cambridge, MA.
 
 \bibitem{sisaky}
 \textbf{Sisaky, A., G.F.} {\textbf{\baglac}} \textbf{Myer, B.}, (1989), Rust
@@ -57,59 +24,11 @@
   \url{http://en.wikipedia.org/wiki/Star_Trek_planet_classifications}, al\i
   nd\i \u{g}{\i} tarih: 07.06.2010.
 
-\bibitem{TS-40561}
-\textbf{TS-40561} (1985). \c{C}elik yap{\i}ların plastik teoriye g\"ore hesap
-  kurallar{\i}, \emph{T\"urk Standartlar{\i} Enstit\"us\"u}.
-
 \bibitem{url-1}
 \textbf{Url-1}, \url{http://www.mohid.com}, al\i nd\i \u{g}{\i} tarih:
   29.06.2006.
 
-\bibitem{url-2}
-\textbf{Url-2}, \url{http://www.elet.polimi.it}, al\i nd\i \u{g}{\i} tarih:
-  10.01.2007.
-
-\bibitem{vanden2001}
-\textbf{Vanden, G., K.S.} {\textbf{\baglac}} \textbf{Doe, J.} Role of reference
-  elements in the selection of resources by psychology undergraduates,
-  \emph{Journal of Bibliographic Research}, (5), 117--123.
-
-\bibitem{1993JHyd..144..193B}
-\textbf{{Burlando}, P.} (1993). {Forecasting of short-term rainfall using ARMA
-  models}, \emph{Journal of Hydrology}, \emph{144}, 193--211.
-
-\bibitem{Deci_Ryan_1990}
-\textbf{Deci, E.L.} {\textbf{\baglac}} \textbf{Ryan, R.M.} (1990). A
-  motivational approach to self: integration in personality., \emph{Nebraska
-  Symposium On Motivation Nebraska Symposium On Motivation}, \emph{38},
-  237--288.
-
 \bibitem{lepichon}
 \textbf{LePichon, X.}, (1997), Personal communication.
-
-\bibitem{Roberts_Jackson_1991}
-\textbf{Roberts, S.} {\textbf{\baglac}} \textbf{Jackson, J.} (1991). Active
-  normal faulting in central Greece: an overview, \emph{Geological Society
-  Special Publication}, \emph{56}(1), 125--142.
-
-\bibitem{Wegener2000629}
-\textbf{Wegener, D.T.}, \textbf{Kerr, N.L.}, \textbf{Fleming, M.A.}
-  {\textbf{\baglac}} \textbf{Petty, R.E.} (2000). Flexible Corrections of Juror
-  Judgments Implications for Jury Instructions, \emph{Psychology, Public
-  Policy, and Law}, \emph{6}(3), 629 -- 654.
-
-\bibitem{Wolchik2000843}
-\textbf{Wolchik, S.A.}, \textbf{West, S.G.}, \textbf{Sandler, I.N.},
-  \textbf{Tein, J.Y.}, \textbf{Coatsworth, D.}, \textbf{Lengua, L.},
-  \textbf{Weiss, L.}, \textbf{Anderson, E.R.}, \textbf{Greene, S.M.}
-  {\textbf{\baglac}} \textbf{Griffin, W.A.} (2000). An Experimental Evaluation
-  of Theory-Based Mother and Mother-Child Programs for Children of Divorce,
-  \emph{Journal of Consulting and Clinical Psychology}, \emph{68}(5), 843 --
-  856.
-
-\bibitem{Zuckerman199486}
-\textbf{Zuckerman, M.} {\textbf{\baglac}} \textbf{Kieffer, S.C.} (1994). Race
-  Differences in Face-ism: Does Facial Prominence Imply Dominance?,
-  \emph{Journal of Personality and Social Psychology}, \emph{66}(1), 86 -- 92.
 
 \end{thebibliography}

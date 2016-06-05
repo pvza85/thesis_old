@@ -1,57 +1,23 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: tez.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tez.aux
 The style file: itubib.bst
 Database file #1: tez.bib
-Warning--missing school in harper2007
-Warning--empty journal in unesco
+Warning--I didn't find a database entry for "HYP:HYP57"
+Warning--I didn't find a database entry for "17590413"
+Warning--I didn't find a database entry for "harper2007"
+Warning--I didn't find a database entry for "unesco"
+Warning--I didn't find a database entry for "mccaffrey88"
+Warning--I didn't find a database entry for "nelson88"
+Warning--I didn't find a database entry for "TS-40561"
+Warning--I didn't find a database entry for "url-2"
+Warning--I didn't find a database entry for "vanden2001"
+Warning--I didn't find a database entry for "1993JHyd..144..193B"
+Warning--I didn't find a database entry for "Deci_Ryan_1990"
+Warning--I didn't find a database entry for "Roberts_Jackson_1991"
+Warning--I didn't find a database entry for "Wegener2000629"
+Warning--I didn't find a database entry for "Wolchik2000843"
+Warning--I didn't find a database entry for "Zuckerman199486"
 Warning--empty chapter and pages in moore91
 Warning--empty pages in moore91
 Too many commas in name 1 of "Sisaky, A., Golab, F. and Myer, B." for entry sisaky
 while executing---line 1328 of file itubib.bst
-Too many commas in name 1 of "Vanden, G., Knapp, S. and Doe, J." for entry vanden2001
-while executing---line 1328 of file itubib.bst
-Warning--empty year in vanden2001
-Warning--there's a number but no volume in vanden2001
-You've used 22 entries,
-            2547 wiz_defined-function locations,
-            690 strings with 8034 characters,
-and the built_in function-call counts, 6581 in all, are:
-= -- 368
-> -- 172
-< -- 0
-+ -- 72
-- -- 50
-* -- 495
-:= -- 651
-add.period$ -- 38
-call.type$ -- 22
-change.case$ -- 4
-chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 738
-empty$ -- 763
-format.name$ -- 61
-if$ -- 1398
-int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 167
-newline$ -- 72
-num.names$ -- 22
-pop$ -- 304
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 152
-stack$ -- 0
-substring$ -- 222
-swap$ -- 457
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 50
-warning$ -- 6
-while$ -- 34
-width$ -- 24
-write$ -- 188
-(There were 2 error messages)
+(There was 1 error message)

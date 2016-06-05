@@ -1,11 +1,11 @@
-\contentsline {part}{\bf {\onsoznameToC }}{ix}
-\contentsline {part}{\bf {\contentsnameToC }}{xi}
-\contentsline {part}{\bf {\kisaltmanameToC }}{xiii}
-\contentsline {part}{\bf {\symbolnameToC }}{xv}
-\contentsline {part}{\bf {\listtablenameToC }}{xvii}
-\contentsline {part}{\bf {\listfigurenameToC }}{xix}
-\contentsline {part}{\bf {\abstractnameToC }}{xxi}
-\contentsline {part}{\bf {\ozetnameToC }}{xxv}
+\contentsline {part}{\bf {\onsoznameToC }}{vii}
+\contentsline {part}{\bf {\contentsnameToC }}{ix}
+\contentsline {part}{\bf {\kisaltmanameToC }}{xi}
+\contentsline {part}{\bf {\symbolnameToC }}{xiii}
+\contentsline {part}{\bf {\listtablenameToC }}{xv}
+\contentsline {part}{\bf {\listfigurenameToC }}{xvii}
+\contentsline {part}{\bf {\abstractnameToC }}{xix}
+\contentsline {part}{\bf {\ozetnameToC }}{xxiii}
 \addvspace {-10\p@ }
 \contentsline {chapter}{1. \bf {INTRODUCTION}}{1}
 \contentsline {section}{\numberline {1.1}Purpose of Thesis}{1}
