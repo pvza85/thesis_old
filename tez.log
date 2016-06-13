@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  5 JUN 2016 08:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  13 JUN 2016 19:28
 entering extended mode
 **./tez.tex
 (tez.tex
@@ -1130,37 +1130,95 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 ] (ozet.tex [23] [24]) [25] [26
 
 ] (ch1.tex
+
+LaTeX Warning: Citation `residual_enhanced_visual_vector' on page 1 undefined o
+n input line 19.
+
+
+LaTeX Warning: Citation `SIFT' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `SURF' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `GLOH' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `HOG' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `BoW' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `vocabulary_tree' on page 1 undefined on input line 20.
+
+
+
+LaTeX Warning: Citation `residual_enhanced_visual_vector' on page 1 undefined o
+n input line 20.
+
+
+LaTeX Warning: Citation `DBN' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `DBN' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `CNN' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `CDBN' on page 1 undefined on input line 20.
+
 <./fig/sekil1.png, id=99, 580.3281pt x 466.8642pt>
 File: ./fig/sekil1.png Graphic file (type png)
  <use ./fig/sekil1.png>
-Package pdftex.def Info: ./fig/sekil1.png used on input line 34.
+Package pdftex.def Info: ./fig/sekil1.png used on input line 23.
 (pdftex.def)             Requested size: 284.52756pt x 228.9008pt.
 
 [1
 
 ]
 
-LaTeX Warning: Citation `unesco' on page 2 undefined on input line 57.
+LaTeX Warning: Citation `Onur_Calikus_YLT' on page 2 undefined on input line 42
+.
 
 
-LaTeX Warning: Citation `mccaffrey88' on page 2 undefined on input line 65.
-
-
-LaTeX Warning: Citation `nelson88' on page 2 undefined on input line 65.
-
-
-LaTeX Warning: Citation `TS-40561' on page 2 undefined on input line 66.
-
-
-LaTeX Warning: Citation `url-2' on page 2 undefined on input line 66.
-
-
-LaTeX Warning: Citation `vanden2001' on page 2 undefined on input line 67.
+LaTeX Warning: Citation `unesco' on page 2 undefined on input line 46.
 
 [2 <./fig/sekil1.png>]
 
+LaTeX Warning: Citation `mccaffrey88' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Citation `moore91' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Citation `nelson88' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Citation `sisaky' on page 3 undefined on input line 55.
+
+
+LaTeX Warning: Citation `simpsondvd' on page 3 undefined on input line 55.
+
+
+LaTeX Warning: Citation `startrek' on page 3 undefined on input line 55.
+
+
+LaTeX Warning: Citation `TS-40561' on page 3 undefined on input line 55.
+
+
+LaTeX Warning: Citation `url-1' on page 3 undefined on input line 55.
+
+
+LaTeX Warning: Citation `url-2' on page 3 undefined on input line 55.
+
+
+LaTeX Warning: Citation `vanden2001' on page 3 undefined on input line 56.
+
+
 LaTeX Warning: Citation `1993JHyd..144..193B' on page 3 undefined on input line
- 102.
+ 91.
 
 ) (ch2.tex [3] [4
 
@@ -1173,6 +1231,9 @@ File: ./fig/sekil2.png Graphic file (type png)
  <use ./fig/sekil2.png>
 Package pdftex.def Info: ./fig/sekil2.png used on input line 34.
 (pdftex.def)             Requested size: 284.52756pt x 191.80733pt.
+
+
+LaTeX Warning: Citation `lepichon' on page 6 undefined on input line 49.
 
 [6 <./fig/sekil2.png>]
 
@@ -1188,10 +1249,8 @@ Package pdftex.def Info: ./fig/sekil3.png used on input line 35.
  [9
 
 ]
-Underfull \hbox (badness 1436) in paragraph at lines 71--76
-[]\T1/ptm/m/n/12 Maecenas eu-is-mod urna ut sem luc-tus et (3.1[]) congue me-tu
-s vulpu-tate. Ut
- []
+
+LaTeX Warning: Reference `eq:3-1' on page 10 undefined on input line 71.
 
 [10 <./fig/sekil3.png>]
 File: ./fig/sekil3.png Graphic file (type png)
@@ -1212,7 +1271,11 @@ Package pdftex.def Info: ./fig/sekil3.png used on input line 173.
 (pdftex.def)             Requested size: 700.0pt x 445.18459pt.
 
 
-LaTeX Warning: Float too large for page by 138.0753pt on input line 179.
+LaTeX Warning: Reference `fig:cshapeMapVMAT' on page 14 undefined on input line
+ 177.
+
+
+LaTeX Warning: Float too large for page by 138.21922pt on input line 179.
 
 [14]
 
@@ -1231,18 +1294,21 @@ LaTeX Warning: Citation `Wolchik2000843' on page 16 undefined on input line 230
 LaTeX Warning: Citation `Zuckerman199486' on page 16 undefined on input line 23
 7.
 
-[16] [17]) (ch4.tex [18
+[16]
+
+LaTeX Warning: Reference `table:galip' on page 17 undefined on input line 281.
+
+[17]) (ch4.tex [18
 
 
 
-] [19]
-<./fig/sekil6.png, id=169, 542.7477pt x 476.982pt>
+] [19] <./fig/sekil6.png, id=169, 542.7477pt x 476.982pt>
 File: ./fig/sekil6.png Graphic file (type png)
- <use ./fig/sekil6.png>
+
+<use ./fig/sekil6.png>
 Package pdftex.def Info: ./fig/sekil6.png used on input line 58.
 (pdftex.def)             Requested size: 230.0pt x 202.12877pt.
-)
-(ch5.tex [20 <./fig/sekil6.png>] [21] [22
+) (ch5.tex [20 <./fig/sekil6.png>] [21] [22
 
 ] [23]
 <./fig/sekil5.png, id=182, 1183.7826pt x 689.4558pt>
@@ -1263,30 +1329,59 @@ Package pdftex.def Info: ./fig/sekil7.png used on input line 58.
 [28 <./fig/sekil7.png>] (tez.bbl [29] [30
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 42.
+Underfull \hbox (badness 1803) in paragraph at lines 14--17
+[]\T1/ptm/b/n/12 Lowe, D.G. \T1/ptm/m/n/12 (1999). Ob-ject recog-ni-tion from l
+o-cal scale-invariant fea-tures,
+ []
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+
+Underfull \hbox (badness 3179) in paragraph at lines 24--27
+[]\T1/ptm/b/n/12 Mikolajczyk, K. and Schmid, C. \T1/ptm/m/n/12 (2005). A per-fo
+r-mance eval-u-a-tion of
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 24--27
+\T1/ptm/m/n/12 lo-cal de-scrip-tors, \T1/ptm/m/it/12 Pat-tern Anal-y-sis and Ma
+-chine In-tel-li-gence, IEEE
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 35--38
+[]\T1/ptm/b/n/12 Mikolajczyk, K. and Schmid, C. \T1/ptm/m/n/12 (2005). A per-fo
+r-mance eval-u-a-tion of
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 35--38
+\T1/ptm/m/n/12 lo-cal de-scrip-tors, \T1/ptm/m/it/12 Pat-tern Anal-y-sis and Ma
+-chine In-tel-li-gence, IEEE
+ []
+
+[31]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 80.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 4792) in paragraph at lines 41--44
+Underfull \hbox (badness 3838) in paragraph at lines 79--82
 []\T1/ptm/b/n/12 Star trek planet clas-si-fi-ca-tions\T1/ptm/m/n/12 , $\T1/pcr/
 m/n/12 http : / / en . wikipedia . org / wiki /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 \T1/pcr/m/n/12 Star _ Trek _ planet _ classifications$\T1/ptm/m/n/12 , alnd§
  tarih:
  []
 
-) [31] [32
-
-] (eklerkapak.tex
+) [32] (eklerkapak.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[33]) (ekler.tex [34] [35
+[33
+
+]) (ekler.tex [34] [35
 
 ]) [36
 
@@ -1318,15 +1413,18 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 14591 strings out of 493335
- 241823 string characters out of 3136681
- 357592 words of memory out of 3000000
- 17755 multiletter control sequences out of 15000+200000
+ 14598 strings out of 493335
+ 241841 string characters out of 3136681
+ 357317 words of memory out of 3000000
+ 17762 multiletter control sequences out of 15000+200000
  35285 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,77p,652b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,77p,1129b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
@@ -1337,7 +1435,7 @@ les (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on tez.pdf (68 pages, 344862 bytes).
+Output written on tez.pdf (68 pages, 347823 bytes).
 PDF statistics:
  266 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

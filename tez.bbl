@@ -3,23 +3,61 @@
 \providecommand{\urlprefix}{}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem{nister_vocabulary_tree}
+\bibitem{residual_enhanced_visual_vector}
+\textbf{Chen, D.}, \textbf{Tsai, S.}, \textbf{Chandrasekhar, V.},
+  \textbf{Takacs, G.}, \textbf{Vedantham, R.}, \textbf{Grzeszczuk, R.}
+  {\textbf{\baglac}} \textbf{Girod, B.} (2013). Residual enhanced visual vector
+  as a compact signature for mobile visual search, \emph{Signal Processing},
+  \emph{93}(8), 2316--2327.
+
+\bibitem{SIFT}
+\textbf{Lowe, D.G.} (1999). Object recognition from local scale-invariant
+  features, \emph{Computer vision, 1999. The proceedings of the seventh IEEE
+  international conference on}, \cilt~2, Ieee, \ssayfa 1150--1157.
+
+\bibitem{SURF}
+\textbf{Bay, H.}, \textbf{Tuytelaars, T.} {\textbf{\baglac}} \textbf{Van~Gool,
+  L.}, (2006). Surf: Speeded up robust features, Computer vision--ECCV 2006,
+  Springer, \ssayfa 404--417.
+
+\bibitem{GLOH}
+\textbf{Mikolajczyk, K.} {\textbf{\baglac}} \textbf{Schmid, C.} (2005). A
+  performance evaluation of local descriptors, \emph{Pattern Analysis and
+  Machine Intelligence, IEEE Transactions on}, \emph{27}(10), 1615--1630.
+
+\bibitem{HOG}
+\textbf{Dalal, N.} {\textbf{\baglac}} \textbf{Triggs, B.} (2005). Histograms of
+  oriented gradients for human detection, \emph{Computer Vision and Pattern
+  Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on}, \cilt~1,
+  IEEE, \ssayfa 886--893.
+
+\bibitem{BoW}
+\textbf{Mikolajczyk, K.} {\textbf{\baglac}} \textbf{Schmid, C.} (2005). A
+  performance evaluation of local descriptors, \emph{Pattern Analysis and
+  Machine Intelligence, IEEE Transactions on}, \emph{27}(10), 1615--1630.
+
+\bibitem{vocabulary_tree}
 \textbf{Nister, D.} {\textbf{\baglac}} \textbf{Stewenius, H.} (2006). Scalable
   recognition with a vocabulary tree, \emph{Computer vision and pattern
   recognition, 2006 IEEE computer society conference on}, \cilt~2, IEEE,
   \ssayfa 2161--2168.
 
-\bibitem{wang_contextual_weighting_vt}
-\textbf{Wang, X.}, \textbf{Yang, M.}, \textbf{Cour, T.}, \textbf{Zhu, S.},
-  \textbf{Yu, K.} {\textbf{\baglac}} \textbf{Han, T.X.} (2011). Contextual
-  weighting for vocabulary tree based image retrieval, \emph{Computer Vision
-  (ICCV), 2011 IEEE International Conference on}, IEEE, \ssayfa 209--216.
+\bibitem{DBN}
+\textbf{Hinton, G.E.} (2009). Deep belief networks, \emph{Scholarpedia},
+  \emph{4}(5), 5947.
 
-\bibitem{mobile_visual_search}
-\textbf{Girod, B.}, \textbf{Chandrasekhar, V.}, \textbf{Grzeszczuk, R.}
-  {\textbf{\baglac}} \textbf{Reznik, Y.A.} (2011). Mobile visual search:
-  Architectures, technologies, and the emerging MPEG standard,
-  \emph{MultiMedia, IEEE}, \emph{18}(3), 86--94.
+\bibitem{CNN}
+\textbf{Krizhevsky, A.}, \textbf{Sutskever, I.} {\textbf{\baglac}}
+  \textbf{Hinton, G.E.} (2012). Imagenet classification with deep convolutional
+  neural networks, \emph{Advances in neural information processing systems},
+  \ssayfa 1097--1105.
+
+\bibitem{CDBN}
+\textbf{Lee, H.}, \textbf{Grosse, R.}, \textbf{Ranganath, R.}
+  {\textbf{\baglac}} \textbf{Ng, A.Y.} (2009). Convolutional deep belief
+  networks for scalable unsupervised learning of hierarchical representations,
+  \emph{Proceedings of the 26th Annual International Conference on Machine
+  Learning}, ACM, \ssayfa 609--616.
 
 \bibitem{Onur_Calikus_YLT}
 \textbf{Calikus, O.}, (2016), YEREL ÖZN\.ITEL\.IKLER KULLANILARAK GÖRÜNTÜ
