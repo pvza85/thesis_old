@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{RESULTS}\label{ch:results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+I will show all results in this section for further use.
+
+\section{27-June-2016}
+This is the result of simple first algorithm that I wrote. First I extracted features using both pretrained AlexNet and GoogleNet (that is trained over imagenet). But the results of GoogleNet in every case was better than alexNet so I have ommit AlexNet results. Then I have guessed closest reference by using Pearson Correlation.
+
+\begin{table*}
+{\setlength{\tabcolsep}{14pt}
+\caption{Results01}
+\begin{center}
+  \begin{tabular}{ |l | c | c | c | c | }
+    \hline
+    		   &Book Covers & CD Covers & DVD Covers & Paintings \\ \hline 
+    5800   & 28         & -         & -          & -         \\ \hline 
+    Canon  & 32         & 31        & 36         & 28        \\ \hline 
+    Droid  & 33         & 63        & 30         & 35        \\ \hline 
+    iPhone & 41         & -         & -          & -         \\ \hline 
+    E63    & -          & 37	       & 14         & 30        \\ \hline 
+    Palm   & -          & 34        & 9          & 25        \\ \hline
+
+  \end{tabular}
+\end{center}
+\label{results01}}
+\end{table*}
+
+
+
+\section{28-June-2016}
+I have updated the results using some voting by fitness calculation over pearson correlation, correlation and euclidean distance. It was pretty good improvement.
+
+\begin{table*}
+{\setlength{\tabcolsep}{14pt}
+\caption{Results02}
+\begin{center}
+  \begin{tabular}{ |l | c | c | c | c | }
+    \hline
+    		   &Book Covers & CD Covers & DVD Covers & Paintings \\ \hline 
+    5800   & 38         & -         & -          & -         \\ \hline 
+    Canon  & 42         & 39        & 41         & 37        \\ \hline 
+    Droid  & 40         & 68        & 40         & 40        \\ \hline 
+    iPhone & 50         & -         & -          & -         \\ \hline 
+    E63    & -          & 45	       & 16         & 38        \\ \hline 
+    Palm   & -          & 42        & 15         & 30        \\ \hline
+
+  \end{tabular}
+\end{center}
+\label{results02}}
+\end{table*}
+
+
+\subsection{Third level title: Only first letter capital}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
+adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
+justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
+lacinia velit, adipiscing elementum lectus felis at sem.
+
+\subsubsection{Fourth level title: Only first letter capital}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
+adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
+justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
+lacinia velit, adipiscing elementum lectus felis at sem.
+
+{\bf Fifth level title: No numbering
+after fourth level titles}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
+adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
+justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
+lacinia velit, adipiscing elementum lectus felis at sem.
+
+\begin{figure}
+ \centering
+ \includegraphics[width=230pt,keepaspectratio=true]{./fig/sekil7}
+ % sekil7.eps: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=14 14 455 369
+ \caption{Example table in chapter 6.}
+ \label{fig:6-1}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
+adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
+justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
+lacinia velit, adipiscing elementum lectus felis at sem.
+
+\begin{table*}
+{\setlength{\tabcolsep}{14pt}
+\caption{Example table in chapter 6.}
+\begin{center}
+\vspace{-6mm}
+\begin{tabular}{cccc}
+\hline\hline
+Column A & Column B & Column C & Column D \\
+\hline
+Row A & Row A & Row A & Row A \\
+Row B & Row B & Row B & Row B \\
+Row C & Row C & Row C & Row C \\
+\hline
+\end{tabular}
+\vspace{-6mm}
+\end{center}
+\label{tableforCh6-1}}
+\end{table*}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
+adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
+justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
+lacinia velit, adipiscing elementum lectus felis at sem. Aenean hendrerit erat eu 
+lacus malesuada at sodales arcu egestas. Maecenas euismod urna ut sem luctus et 
+congue metus vulputate. Ut pellentesque, neque eget fringilla elementum, ligula 
+massa aliquet lorem, et varius nisi lacus vel diam. Etiam vitae metus sed orci 
+rutrum fringilla. Phasellus sed velit quam. Mauris vestibulum, mauris a cursus 
+adipiscing, nulla est hendrerit justo, ut fringilla eros velit ut mauris.
