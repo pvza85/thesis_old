@@ -49,67 +49,48 @@ I have updated the results using some voting by fitness calculation over pearson
 \label{results02}}
 \end{table*}
 
-
-\subsection{Third level title: Only first letter capital}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
-adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
-justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
-lacinia velit, adipiscing elementum lectus felis at sem.
-
-\subsubsection{Fourth level title: Only first letter capital}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
-adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
-justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
-lacinia velit, adipiscing elementum lectus felis at sem.
-
-{\bf Fifth level title: No numbering
-after fourth level titles}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
-adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
-justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
-lacinia velit, adipiscing elementum lectus felis at sem.
-
-\begin{figure}
- \centering
- \includegraphics[width=230pt,keepaspectratio=true]{./fig/sekil7}
- % sekil7.eps: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=14 14 455 369
- \caption{Example table in chapter 6.}
- \label{fig:6-1}
-\end{figure}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
-adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
-justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
-lacinia velit, adipiscing elementum lectus felis at sem.
+\section{25-July-2016}
+This result is extracted using TensorFlow with Inception3 network. I have extracted the mixed10conv0 layer from it.
 
 \begin{table*}
 {\setlength{\tabcolsep}{14pt}
-\caption{Example table in chapter 6.}
+\caption{Results03}
 \begin{center}
-\vspace{-6mm}
-\begin{tabular}{cccc}
-\hline\hline
-Column A & Column B & Column C & Column D \\
-\hline
-Row A & Row A & Row A & Row A \\
-Row B & Row B & Row B & Row B \\
-Row C & Row C & Row C & Row C \\
-\hline
+\begin{tabular}{|l|l|l|l|l|l|l|}
+
+ & book\_covers & business\_cards & cd\_covers & landmarks & museum\_paintings & print \\ \hline
+5800   &     36.6337 &              - &         - &         - &                - &     - \\ \hline
+Canon  &     45.5446 &             48 &        26 &         - &          47.2527 &    12 \\ \hline
+Droid  &      50.495 &             66 &        59 &         - &          37.3626 &     5 \\ \hline
+E63    &           - &             58 &        35 &         - &          49.4505 &    18 \\ \hline
+Palm   &           - &             21 &        28 &         - &          37.3626 &     5 \\ \hline
+Query  &           - &              - &         - &   20.5589 &                - &     - \\ \hline
+iPhone &     28.7129 &              - &         - &         - &                - &     - \\ \hline
+
 \end{tabular}
-\vspace{-6mm}
 \end{center}
-\label{tableforCh6-1}}
+\label{results03}}
 \end{table*}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vel dui 
-adipiscing placerat et nec metus. Donec bibendum sodales mollis. Cras in lacus 
-justo, at vestibulum quam. Sed semper, est sit amet consectetur ornare, leo est 
-lacinia velit, adipiscing elementum lectus felis at sem. Aenean hendrerit erat eu 
-lacus malesuada at sodales arcu egestas. Maecenas euismod urna ut sem luctus et 
-congue metus vulputate. Ut pellentesque, neque eget fringilla elementum, ligula 
-massa aliquet lorem, et varius nisi lacus vel diam. Etiam vitae metus sed orci 
-rutrum fringilla. Phasellus sed velit quam. Mauris vestibulum, mauris a cursus 
-adipiscing, nulla est hendrerit justo, ut fringilla eros velit ut mauris.
+\section{08-Aug-2016}
+Fine Tuned AlexNet with drop-out rate of 0.5. 
+
+\begin{table*}
+{\setlength{\tabcolsep}{14pt}
+\caption{Results04}
+\begin{center}
+  \begin{tabular}{ |l | c | c | c | c | c |}
+    \hline
+    		   &Book Covers & CD Covers & DVD Covers & Paintings & Average \\ \hline 
+    5800   & 68.3       & -         & -          & -       & 68.3  \\ \hline 
+    Canon  & 74.2       & 66        & 89         & 96      & 81.3  \\ \hline 
+    Droid  & 68.3       & 79        & 74         & 94      & 78.82 \\ \hline 
+    iPhone & 66.3       & -         & -          & -       & 66.3  \\ \hline 
+    E63    & -          & 74	    & 56         & 88      & 72.66    \\ \hline 
+    Palm   & -          & 59        & 34         & 90      & 46.5  \\ \hline
+    Average& 69.5       & 63.25     & 69.275     & 92      & 71.4 \\ \hline
+
+  \end{tabular}
+\end{center}
+\label{results04}}
+\end{table*}

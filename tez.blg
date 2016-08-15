@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: tez.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tez.aux
 The style file: itubib.bst
 Database file #1: tez.bib
 Warning--entry type for "Onur_Calikus_YLT" isn't style-file defined
@@ -19,4 +21,46 @@ Warning--empty chapter and pages in moore91
 Warning--empty pages in moore91
 Too many commas in name 1 of "Sisaky, A., Golab, F. and Myer, B." for entry sisaky
 while executing---line 1328 of file itubib.bst
+Warning--empty pages in torch
+You've used 21 entries,
+            2547 wiz_defined-function locations,
+            699 strings with 8182 characters,
+and the built_in function-call counts, 8120 in all, are:
+= -- 497
+> -- 225
+< -- 9
++ -- 89
+- -- 68
+* -- 589
+:= -- 776
+add.period$ -- 36
+call.type$ -- 21
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 869
+empty$ -- 902
+format.name$ -- 81
+if$ -- 1786
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 188
+newline$ -- 69
+num.names$ -- 21
+pop$ -- 352
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 266
+stack$ -- 0
+substring$ -- 325
+swap$ -- 564
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 68
+warning$ -- 3
+while$ -- 46
+width$ -- 23
+write$ -- 189
 (There was 1 error message)

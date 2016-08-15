@@ -1,0 +1,116 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+\usepackage[breaklinks=true,bookmarks=false]{hyperref}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+
+\setcounter{page}{1}
+\begin{document}
+
+
+\title{Mobile image detection using features extracted from Convolutional Neural Network}
+
+\author{Yusuf Yaslan\\
+Istanbul Technical University\\
+{\tt\small yyaslan@itu.edu.tr}
+\and
+Payam V. Azad\\
+Istnabul Techinical Unviersity\\
+{\tt\small vakil@itu.edu.tr}
+}
+
+\maketitle
+
+
+\begin{abstract}
+The purpose of this research is to solve detecting images problem when we have very few training sample (just one in our case). We have attempt solving it using Convolutional Neural Networks and used features extraced from different layers of network. We also tried  Transfer Learning and Augmentation to enhance the results.
+\end{abstract}
+
+\section{Introduction}
+Computer Vision and Machine Learning is the most active field in Computer Science field and day by day computers power in solving various problems is immensely improving. By advent of Deep Learning from 2012 \cite{alexnet} we percieved a huge improvement in vision problems. These days CNNs surpass human performance in lots of tasks and it still getting better. For getting the best out of deep learning we need big number of train sample \cite{oneshotlearning1}. But training models with rare samples is still unsolved problems that we tried to solve it. 
+
+\subsection{DataSet}
+As a dataset we have used Stanford Mobile Visual Search Dataset \cite{stanfordmobileimages}. This dataset contains different catagories like CD Covers, DVD Covers, Book Cover and Paintings. From each catagory there is about 100 sample that is our Reference samples provided in high quality. As a test data for each catagory we have equal number of pictures taken by different mobile phones(one picture per item). We are suppose to train our model over Reference images (one-shot) and try to detect the each picture taken by mobile belongs to which object. 
+
+
+\subsection{Background Check}
+We started our research based on Onur Celikaya's Master Thesis \cite{Onur_Calikus_YLT}. He have solved this problem using Vocabulary Trees and extracted features using SIFT \cite{SIFT} Based on a work from Nister et al \cite{vocabulary_tree}. \\
+As we have mentioned solving this problem with Deep Learning is pretty difficult task because of small size of training dataset but there have been several attacks specially in recent years for similar datasets using Deep Learning. A neat solution suggested by Held et al \cite{augmented_deep} using Augmentation and increase the size of dataset that we have used it. But without augmentation also DeepMind team from google have done precious works like \cite{oneshotlearning1}\cite{oneshotlearning2}\cite{oneshotlearning3} that have been published very recently. We also took some of our ideas from them.
+
+
+\subsection{Hypothesis}
+As though Deep Learning works based on extracting features inside itself we have proposed that we can use these features extracted from midlle layers of our Deep Learning network for instance detection instead of classic SIFT or SURF features. We want to use these features as a input to custome developed detection function that is working based on consine distance and Pearson Correlation between test image and reference image.
+
+
+\section{Methods}
+Nueral Networks has been out as a general solver for more than 40 years but due to some problems like difficulty of training and optimizing, being so computational intensive and vanishing gradient problem never gain this much fame. But in recent years there have been a big lean toward Deep Nueral Networks after new methods like back-propagation, convolutional neural networks had emerged and also huge improves happened in the hardware field like using highly capable GPU's for training complex networks. 
+
+\subsection{Convolutional Neural Network}
+Convolutional Neural Netowrks are type of Deep Nueral networks that imply small filters over each layer as convolution layer and convolut these tiny filters over input of the layer (that in the case of first layer it is pixels). These filters is been learned during the procedure of foreward-backward propagation. The first succusful network has been proposed by Alex Krizhevsky et al \cite{CNN} at 2012 that is called AlexNet and was been a leap in solving complex problem of ImageNet. Also CNNs had earlier appearences in Academia by Yann Lacun and his team \cite{LeNet}. This is succuss still continues and every years new models is emerging that are superior to their succesors and there is no other algorithm can be competing with CNNs in object detection. 
+
+
+\subsubsection{Networks}
+New CNN network models has been created every year and it is getting smarter and also more complex. Now we have extremely complex and also immensely powerful network from LeNet created by Yann Lacun at 1995 \cite{LeNet}. This network just had 7 layers and except being first working CNN had not achieve any succuss. In comparison 18 layered AlexNet \cite{alexnet} was a great succuss. This success and complexity pattern goes on with VGGNet \cite{VGGNet}, GoogLeNet \cite{GoogLeNet} and now we have Residual Network \cite{ResNet} with 150 layers. At this research we have used GoogleNet because of it is combination of impressive power and not being extremely heavy like ResNet or even newer Inception-v3. Also we have used AlexNet and VGGNet that both had significantly poorer results than GoogLeNet. \\
+We have not used ResNet or Inception-v3 because they need intense computational power that we was shy of it so we thought GoogLeNet would be the optimum network for us. 
+
+\subsection{Transfer Learning}
+As we have discussed before CNNs constructed from multiple layers of filters that we need to learn these filters during training process. Using small datasets for this training lead to drastic overfitting. And also training a network over a reasonable size dataset may takes more than weeks using powerful GPU servers. For solving these problems Transfer Learning proposed \cite{transfer_learning2} \cite{transfer_learning3}. \\
+In Transfer Learning we can train our model over a huge dataset like ImageNet that compound of millions of pictures with 1000 labels and then fine tune it for other datasets by changing last layers. The reason that it is working is that first layers of CNN tries to extract general features of images like colors, edges and general patterns. It is the last layers that tries to extract specefic patterns of dataset. \\
+So by implementing Transfer Learning we can use previously trained networks over ImageNet that is done by extremely powerful machines and just fine-tune 2-3 buttom layers for our dataset that will took immensely less time and computation. 
+
+\subsection{Augmentation}
+Data Augmentation in case that train data is small in images is pretty widespread approach. \cite{augmented_deep} In This approach we try to mimic test sets and by distorting reference image trying to create new images and extend our train set. \\
+We also used this technique and done 4 augmentation. First rotate 45 degrees, then rotate 135 degrees and Second we tried to randomly add a small number to color channels. We have done it twice so from one reference image totally we created 4 augmented images. \\
+In this process we tried to create images similar to images taken by mobile phone that is possible to take from different angle and there can be color distortions. 
+ 
+\subsection{Detection}
+For detecting each instance we created our own method. Input parameter of this method is two feature vector derived from reference and test image and we try to find the most similar images by this method. For calculating similarity we are calculating combination of cosine distance of two feature vector, euclidean distance of histograms and Pearson Correlation between these vectors. And by using a ranking algorithm give them each a point based on our hyper parameters that is been extracted by different manual tests. 
+\subsubsection{Feature Vector}
+The feature vector used for calculating similarities of each image is derived from different layers of networks. After several tests the best vector that we could found was contatination of features created by 2nd, 3rd and last layers.  
+
+\subsection{Tools}
+For running and fine-tuning CNN we have used Google's TensorFlow library. \cite{tensorflow} There are few well-known libraries for Deep Learning including Caffe\cite{caffe}, TensorFlow\cite{tensorflow}, Theano\cite{theano} and  Torch\cite{torch} that each have its cons and pros. We have started using caffe for our tests because it has the richest resource of pre-trained models but migrated to TensorFlow because of its extremely well structure, ease of use and power. And converted pre-trained models from caffe into TensorFlow. \\
+TensorFlow is written by python in interface but it has C++ and Cuda as its backbone. It is been developed by Google and used in Google labs so it is highly up-to-date and efficient. It support multi GPU servers and also multiple GPU servers. The other big advantage of TensorFlow is ease of switch between GPU processing and CPU processing that is done by just a flag without any headache and end-user can use its model either in CPU or GPU without any effort.  
+\section{Results}
+
+
+
+\subsection{Without Augmentation}
+
+
+
+
+
+
+\subsection{With Augmentation}
+
+
+\section{Discussion}
+
+
+
+
+
+
+
+
+
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{mybib}
+}
+
+\end{document}

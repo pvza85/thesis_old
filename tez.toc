@@ -49,11 +49,18 @@
 \contentsline {subsection}{\numberline {7.2.1}Third level title: Only first letter capital}{30}
 \contentsline {subsubsection}{\numberline {7.2.1.1}Fourth level title: Only first letter capital}{30}
 \addvspace {-10\p@ }
-\contentsline {chapter}{8. \bf {RESULTS}}{33}
-\contentsline {section}{\numberline {8.1}27-June-2016}{33}
-\contentsline {section}{\numberline {8.2}28-June-2016}{33}
-\contentsline {subsection}{\numberline {8.2.1}Third level title: Only first letter capital}{34}
-\contentsline {subsubsection}{\numberline {8.2.1.1}Fourth level title: Only first letter capital}{34}
+\contentsline {chapter}{8. \bf {Implementation}}{33}
+\contentsline {section}{\numberline {8.1}Frame Works}{33}
+\contentsline {subsection}{\numberline {8.1.1}Caffe}{33}
+\contentsline {subsection}{\numberline {8.1.2}Tensor Flow}{33}
+\contentsline {subsection}{\numberline {8.1.3}Theano}{33}
+\contentsline {subsection}{\numberline {8.1.4}Torch}{33}
+\addvspace {-10\p@ }
+\contentsline {chapter}{9. \bf {RESULTS}}{35}
+\contentsline {section}{\numberline {9.1}27-June-2016}{35}
+\contentsline {section}{\numberline {9.2}28-June-2016}{35}
+\contentsline {section}{\numberline {9.3}25-July-2016}{36}
+\contentsline {section}{\numberline {9.4}08-Aug-2016}{36}
 \addvspace {-10\p@ }
 \contentsline {chapter}{\bf {\bibnameToC }}{37}
 \addvspace {-10\p@ }

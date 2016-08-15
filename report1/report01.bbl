@@ -1,0 +1,120 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{tensorflow}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, et~al.
+\newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems.
+\newblock {\em arXiv preprint arXiv:1603.04467}, 2016.
+
+\bibitem{Onur_Calikus_YLT}
+O.~Calikus.
+\newblock Yerel Özn\.itel\.ikler kullanilarak gÖrÜntÜ \.indeksleme ve
+  eŞleme, 2016.
+
+\bibitem{stanfordmobileimages}
+V.~R. Chandrasekhar, D.~M. Chen, S.~S. Tsai, N.-M. Cheung, H.~Chen, G.~Takacs,
+  Y.~Reznik, R.~Vedantham, R.~Grzeszczuk, J.~Bach, et~al.
+\newblock The stanford mobile visual search data set.
+\newblock In {\em Proceedings of the second annual ACM conference on Multimedia
+  systems}, pages 117--122. ACM, 2011.
+
+\bibitem{torch}
+R.~Collobert, K.~Kavukcuoglu, and C.~Farabet.
+\newblock Torch7: A matlab-like environment for machine learning.
+\newblock In {\em BigLearn, NIPS Workshop}, number EPFL-CONF-192376, 2011.
+
+\bibitem{transfer_learning2}
+J.~Donahue, Y.~Jia, O.~Vinyals, J.~Hoffman, N.~Zhang, E.~Tzeng, and T.~Darrell.
+\newblock Decaf: A deep convolutional activation feature for generic visual
+  recognition.
+\newblock In {\em ICML}, pages 647--655, 2014.
+
+\bibitem{ResNet}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em arXiv preprint arXiv:1512.03385}, 2015.
+
+\bibitem{augmented_deep}
+D.~Held, S.~Thrun, and S.~Savarese.
+\newblock Deep learning for single-view instance recognition.
+\newblock {\em arXiv preprint arXiv:1507.08286}, 2015.
+
+\bibitem{caffe}
+Y.~Jia, E.~Shelhamer, J.~Donahue, S.~Karayev, J.~Long, R.~Girshick,
+  S.~Guadarrama, and T.~Darrell.
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock {\em arXiv preprint arXiv:1408.5093}, 2014.
+
+\bibitem{alexnet}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{CNN}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{LeNet}
+Y.~LeCun, L.~Jackel, L.~Bottou, A.~Brunot, C.~Cortes, J.~Denker, H.~Drucker,
+  I.~Guyon, U.~Muller, E.~Sackinger, et~al.
+\newblock Comparison of learning algorithms for handwritten digit recognition.
+\newblock In {\em International conference on artificial neural networks},
+  volume~60, pages 53--60, 1995.
+
+\bibitem{SIFT}
+D.~G. Lowe.
+\newblock Object recognition from local scale-invariant features.
+\newblock In {\em Computer vision, 1999. The proceedings of the seventh IEEE
+  international conference on}, volume~2, pages 1150--1157. Ieee, 1999.
+
+\bibitem{vocabulary_tree}
+D.~Nister and H.~Stewenius.
+\newblock Scalable recognition with a vocabulary tree.
+\newblock In {\em Computer vision and pattern recognition, 2006 IEEE computer
+  society conference on}, volume~2, pages 2161--2168. IEEE, 2006.
+
+\bibitem{oneshotlearning2}
+D.~J. Rezende, S.~Mohamed, I.~Danihelka, K.~Gregor, and D.~Wierstra.
+\newblock One-shot generalization in deep generative models.
+\newblock {\em arXiv preprint arXiv:1603.05106}, 2016.
+
+\bibitem{oneshotlearning3}
+A.~Santoro, S.~Bartunov, M.~Botvinick, D.~Wierstra, and T.~Lillicrap.
+\newblock One-shot learning with memory-augmented neural networks.
+\newblock {\em arXiv preprint arXiv:1605.06065}, 2016.
+
+\bibitem{transfer_learning3}
+A.~Sharif~Razavian, H.~Azizpour, J.~Sullivan, and S.~Carlsson.
+\newblock Cnn features off-the-shelf: an astounding baseline for recognition.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition Workshops}, pages 806--813, 2014.
+
+\bibitem{VGGNet}
+K.~Simonyan and A.~Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{GoogLeNet}
+C.~Szegedy, W.~Liu, Y.~Jia, P.~Sermanet, S.~Reed, D.~Anguelov, D.~Erhan,
+  V.~Vanhoucke, and A.~Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 1--9, 2015.
+
+\bibitem{theano}
+T.~T.~D. Team, R.~Al-Rfou, G.~Alain, A.~Almahairi, C.~Angermueller,
+  D.~Bahdanau, N.~Ballas, F.~Bastien, J.~Bayer, A.~Belikov, et~al.
+\newblock Theano: A python framework for fast computation of mathematical
+  expressions.
+\newblock {\em arXiv preprint arXiv:1605.02688}, 2016.
+
+\bibitem{oneshotlearning1}
+O.~Vinyals, C.~Blundell, T.~Lillicrap, K.~Kavukcuoglu, and D.~Wierstra.
+\newblock Matching networks for one shot learning.
+\newblock {\em arXiv preprint arXiv:1606.04080}, 2016.
+
+\end{thebibliography}

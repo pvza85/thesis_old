@@ -87,4 +87,31 @@
 \bibitem{lepichon}
 \textbf{LePichon, X.}, (1997), Personal communication.
 
+\bibitem{caffe}
+\textbf{Jia, Y.}, \textbf{Shelhamer, E.}, \textbf{Donahue, J.},
+  \textbf{Karayev, S.}, \textbf{Long, J.}, \textbf{Girshick, R.},
+  \textbf{Guadarrama, S.} {\textbf{\baglac}} \textbf{Darrell, T.} (2014).
+  Caffe: Convolutional Architecture for Fast Feature Embedding, \emph{arXiv
+  preprint arXiv:1408.5093}.
+
+\bibitem{tensorflow}
+\textbf{Abadi, M.}, \textbf{Agarwal, A.}, \textbf{Barham, P.}, \textbf{Brevdo,
+  E.}, \textbf{Chen, Z.}, \textbf{Citro, C.}, \textbf{Corrado, G.S.},
+  \textbf{Davis, A.}, \textbf{Dean, J.}, \textbf{Devin, M.} \emph{\etal}
+  (2016). Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems, \emph{arXiv preprint arXiv:1603.04467}.
+
+\bibitem{theano}
+\textbf{Team, T.T.D.}, \textbf{Al-Rfou, R.}, \textbf{Alain, G.},
+  \textbf{Almahairi, A.}, \textbf{Angermueller, C.}, \textbf{Bahdanau, D.},
+  \textbf{Ballas, N.}, \textbf{Bastien, F.}, \textbf{Bayer, J.},
+  \textbf{Belikov, A.} \emph{\etal} (2016). Theano: A Python framework for fast
+  computation of mathematical expressions, \emph{arXiv preprint
+  arXiv:1605.02688}.
+
+\bibitem{torch}
+\textbf{Collobert, R.}, \textbf{Kavukcuoglu, K.} {\textbf{\baglac}}
+  \textbf{Farabet, C.} (2011). Torch7: A matlab-like environment for machine
+  learning, \emph{BigLearn, NIPS Workshop}, EPFL-CONF-192376.
+
 \end{thebibliography}
